@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Movie Theater Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <header>
+            <h2>Movie Theater Management Dashboard</h2>
+            <a href="logout.html" class="logout-button">Logout</a>
+        </header>
+        
+        <nav class="sidebar">
+            <ul>
+                <li><a href="manage_movies.html">Manage Movies</a></li>
+                <li><a href="manage_schedule.html">Manage Schedule</a></li>
+                <li><a href="manage_customers.html">Manage Customers</a></li>
+                <li><a href="ticket_booking.html">Ticket Booking</a></li>
+                <li><a href="revenue_reports.html">Revenue Reports</a></li>
+                <li><a href="system_settings.html">System Settings</a></li>
+            </ul>
+        </nav>
+        
+        <main>
+            <h3>Welcome to the Dashboard</h3>
+            <p>Select an option from the menu to start managing the theater.</p>
+        </main>
+    </div>
+</body>
+</html>
