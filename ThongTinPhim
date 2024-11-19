@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông Tin Phim - Movie Theater</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Thông Tin Phim</h1>
+        <nav>
+            <a href="index.html">Trang Chủ</a>
+            <a href="schedule.html">Lịch Chiếu</a>
+            <a href="booking.html">Đặt Vé</a>
+            <a href="account.html">Tài Khoản</a>
+            <a href="support.html">Hỗ Trợ</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="movie-details">
+            <h2>Tên Phim</h2>
+            <p>Thể loại: Hành động</p>
+            <p>Thời lượng: 120 phút</p>
+            <p>Đạo diễn: John Doe</p>
+            <p>Diễn viên: Jane Doe, Bob Smith</p>
+            <p>Mô tả: Phim hành động hấp dẫn...</p>
+            <a href="trailer-link" target="_blank">Xem Trailer</a>
+            <button onclick="location.href='booking.html'">Đặt Vé</button>
+        </section>
+
+        <section class="schedule">
+            <h3>Lịch Chiếu</h3>
+            <!-- Lịch chiếu của phim -->
+        </section>
+    </main>
+</body>
+</html>
