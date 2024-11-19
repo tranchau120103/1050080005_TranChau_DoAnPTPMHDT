@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lịch Chiếu - Movie Theater</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Lịch Chiếu</h1>
+        <nav>
+            <a href="index.html">Trang Chủ</a>
+            <a href="movie-info.html">Thông Tin Phim</a>
+            <a href="booking.html">Đặt Vé</a>
+            <a href="account.html">Tài Khoản</a>
+            <a href="support.html">Hỗ Trợ</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="filter">
+            <h2>Lọc Lịch Chiếu</h2>
+            <form>
+                <label for="date">Ngày</label>
+                <input type="date" id="date">
+                
+                <label for="room">Phòng Chiếu</label>
+                <select id="room">
+                    <option value="all">Tất cả</option>
+                    <option value="1">Phòng 1</option>
+                    <option value="2">Phòng 2</option>
+                </select>
+                
+                <button type="submit">Lọc</button>
+            </form>
+        </section>
+
+        <section class="schedule">
+            <h3>Lịch Chiếu Hôm Nay</h3>
+            <!-- Bảng lịch chiếu -->
+        </section>
+    </main>
+</body>
+</html>
