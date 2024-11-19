@@ -1,0 +1,11 @@
+<form action="/payment" method="post">
+  <h2>Thanh toán</h2>
+  <label for="payment_method">Phương thức thanh toán:</label>
+  <select id="payment_method" name="payment_method">
+    <option value="credit_card">Thẻ tín dụng</option>
+    <option value="e_wallet">Ví điện tử</option>
+  </select>
+  <label for="amount">Số tiền:</label>
+  <input type="text" id="amount" name="amount" readonly>
+  <button type="submit">Xác nhận thanh toán</button>
+</form>
