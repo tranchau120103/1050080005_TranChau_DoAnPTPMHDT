@@ -1,0 +1,11 @@
+<form action="/manage-ticket" method="post">
+  <h2>Quản lý vé</h2>
+  <label for="ticket_id">Mã vé:</label>
+  <input type="text" id="ticket_id" name="ticket_id" required>
+  <label for="status">Tình trạng vé:</label>
+  <select id="status" name="status">
+    <option value="issued">Đã phát hành</option>
+    <option value="cancelled">Đã hủy</option>
+  </select>
+  <button type="submit">Cập nhật vé</button>
+</form>
