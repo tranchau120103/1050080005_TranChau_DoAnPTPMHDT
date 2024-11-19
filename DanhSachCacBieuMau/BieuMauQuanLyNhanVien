@@ -1,0 +1,15 @@
+<form action="/manage-employee" method="post">
+  <h2>Quản lý nhân viên</h2>
+  <label for="employee_name">Tên nhân viên:</label>
+  <input type="text" id="employee_name" name="employee_name" required>
+  <label for="role">Vai trò:</label>
+  <input type="text" id="role" name="role" required>
+  <label for="schedule">Lịch làm việc:</label>
+  <input type="text" id="schedule" name="schedule">
+  <label for="status">Trạng thái:</label>
+  <select id="status" name="status">
+    <option value="active">Đang làm việc</option>
+    <option value="inactive">Nghỉ việc</option>
+  </select>
+  <button type="submit">Lưu thông tin nhân viên</button>
+</form>
