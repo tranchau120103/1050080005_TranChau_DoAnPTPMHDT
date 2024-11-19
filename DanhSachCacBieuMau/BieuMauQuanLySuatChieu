@@ -1,0 +1,15 @@
+<form action="/manage-schedule" method="post">
+  <h2>Quản lý suất chiếu</h2>
+  <label for="movie">Phim:</label>
+  <select id="movie" name="movie">
+    <option value="1">Phim A</option>
+    <option value="2">Phim B</option>
+  </select>
+  <label for="theater">Rạp chiếu:</label>
+  <input type="text" id="theater" name="theater" required>
+  <label for="start_time">Thời gian bắt đầu:</label>
+  <input type="time" id="start_time" name="start_time" required>
+  <label for="end_time">Thời gian kết thúc:</label>
+  <input type="time" id="end_time" name="end_time" required>
+  <button type="submit">Thêm/Sửa Suất Chiếu</button>
+</form>
