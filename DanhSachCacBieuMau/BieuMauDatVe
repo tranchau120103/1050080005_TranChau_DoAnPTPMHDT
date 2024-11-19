@@ -1,0 +1,15 @@
+<form action="/book-ticket" method="post">
+  <h2>Đặt vé</h2>
+  <label for="movie">Bộ phim:</label>
+  <select id="movie" name="movie">
+    <option value="1">Phim A</option>
+    <option value="2">Phim B</option>
+  </select>
+  <label for="schedule">Suất chiếu:</label>
+  <input type="text" id="schedule" name="schedule" required>
+  <label for="seat">Ghế ngồi:</label>
+  <input type="text" id="seat" name="seat" required>
+  <label for="price">Giá vé:</label>
+  <input type="text" id="price" name="price" readonly>
+  <button type="submit">Thanh toán</button>
+</form>
