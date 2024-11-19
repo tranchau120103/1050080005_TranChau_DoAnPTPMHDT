@@ -1,0 +1,14 @@
+<form action="/revenue-report" method="post">
+  <h2>Báo cáo doanh thu</h2>
+  <label for="start_date">Ngày bắt đầu:</label>
+  <input type="date" id="start_date" name="start_date" required>
+  <label for="end_date">Ngày kết thúc:</label>
+  <input type="date" id="end_date" name="end_date" required>
+  <label for="report_type">Loại báo cáo:</label>
+  <select id="report_type" name="report_type">
+    <option value="daily">Hàng ngày</option>
+    <option value="weekly">Hàng tuần</option>
+    <option value="monthly">Hàng tháng</option>
+  </select>
+  <button type="submit">Tạo báo cáo</button>
+</form>
