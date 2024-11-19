@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ - Movie Theater</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Movie Theater Management</h1>
+        <nav>
+            <a href="index.html">Trang Chủ</a>
+            <a href="movie-info.html">Thông Tin Phim</a>
+            <a href="schedule.html">Lịch Chiếu</a>
+            <a href="booking.html">Đặt Vé</a>
+            <a href="account.html">Tài Khoản</a>
+            <a href="support.html">Hỗ Trợ</a>
+            <a href="admin.html">Quản Trị Viên</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Phim Đang Chiếu</h2>
+        <!-- Danh sách phim đang chiếu -->
+        
+        <h2>Phim Sắp Chiếu</h2>
+        <!-- Danh sách phim sắp chiếu -->
+        
+        <h2>Phim Nổi Bật</h2>
+        <!-- Danh sách phim nổi bật -->
+    </main>
+</body>
+</html>
