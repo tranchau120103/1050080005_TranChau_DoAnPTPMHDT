@@ -1,0 +1,13 @@
+<form action="/manage-theater" method="post">
+  <h2>Quản lý rạp chiếu</h2>
+  <label for="room_name">Tên phòng chiếu:</label>
+  <input type="text" id="room_name" name="room_name" required>
+  <label for="seat_count">Số lượng ghế:</label>
+  <input type="number" id="seat_count" name="seat_count" required>
+  <label for="status">Trạng thái:</label>
+  <select id="status" name="status">
+    <option value="active">Đang hoạt động</option>
+    <option value="maintenance">Bảo trì</option>
+  </select>
+  <button type="submit">Cập nhật Phòng Chiếu</button>
+</form>
